@@ -9,6 +9,8 @@ target 'SwiftProject' do
 
 
   pod 'ReactiveSwift', '~> 2.0.1'
+  pod 'EVGPUImage2', '~> 0.1.0'
+  
 #  pod 'RxSwift'
 #  pod 'RxCocoa'  编译错误
 

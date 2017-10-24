@@ -17,9 +17,15 @@
 		B7366BED1F91088A0072E59E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7366BEB1F91088A0072E59E /* LaunchScreen.storyboard */; };
 		B7366BF81F91088A0072E59E /* SwiftProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7366BF71F91088A0072E59E /* SwiftProjectTests.swift */; };
 		B7366C031F91088A0072E59E /* SwiftProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7366C021F91088A0072E59E /* SwiftProjectUITests.swift */; };
+		B75D92A41F99EF2400CC6B2E /* 鹬.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B75D92A31F99EF2400CC6B2E /* 鹬.mp4 */; };
+		B75D92A71F99EF6200CC6B2E /* MediaHandleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75D92A61F99EF6200CC6B2E /* MediaHandleController.swift */; };
+		B75D92A91F99F18300CC6B2E /* MediaHandleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B75D92A81F99F18300CC6B2E /* MediaHandleController.xib */; };
 		B7841E961F97501E0088A8BA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7841E951F97501E0088A8BA /* LoginViewController.swift */; };
 		B7841E981F9752280088A8BA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7841E971F9752280088A8BA /* LoginView.swift */; };
 		B7841E9A1F9752340088A8BA /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7841E991F9752340088A8BA /* LoginViewModel.swift */; };
+		B793C7081F99FC4800CCB28A /* 001.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B793C7071F99FC4800CCB28A /* 001.mp4 */; };
+		B7BF7E581F9EDCAB00543562 /* GPUCameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF7E561F9EDCAB00543562 /* GPUCameraController.swift */; };
+		B7BF7E591F9EDCAB00543562 /* GPUCameraController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7BF7E571F9EDCAB00543562 /* GPUCameraController.xib */; };
 		B7E1FCCDB8D540FB0211EC8F /* Pods_SwiftProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DB96AA1567CB9394CA07405 /* Pods_SwiftProjectTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,9 +67,15 @@
 		B7366BFE1F91088A0072E59E /* SwiftProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7366C021F91088A0072E59E /* SwiftProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProjectUITests.swift; sourceTree = "<group>"; };
 		B7366C041F91088A0072E59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B75D92A31F99EF2400CC6B2E /* 鹬.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "鹬.mp4"; sourceTree = "<group>"; };
+		B75D92A61F99EF6200CC6B2E /* MediaHandleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaHandleController.swift; sourceTree = "<group>"; };
+		B75D92A81F99F18300CC6B2E /* MediaHandleController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MediaHandleController.xib; sourceTree = "<group>"; };
 		B7841E951F97501E0088A8BA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B7841E971F9752280088A8BA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B7841E991F9752340088A8BA /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		B793C7071F99FC4800CCB28A /* 001.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 001.mp4; sourceTree = "<group>"; };
+		B7BF7E561F9EDCAB00543562 /* GPUCameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPUCameraController.swift; sourceTree = "<group>"; };
+		B7BF7E571F9EDCAB00543562 /* GPUCameraController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GPUCameraController.xib; sourceTree = "<group>"; };
 		D509B78DC3D66C4DB6C4A3D0 /* Pods-SwiftProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProjectTests/Pods-SwiftProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F4B401E39F8A9C2842489963 /* Pods_SwiftProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB6F88484CE9A09D0961277 /* Pods-SwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProject/Pods-SwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +157,9 @@
 		B7366BDE1F91088A0072E59E /* SwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				B751441A1F9C69F500610B75 /* Vendor */,
+				B75D92A51F99EF3200CC6B2E /* GPUImage2Demo */,
+				B75D92A21F99EF1400CC6B2E /* Resource */,
 				B7366BDF1F91088A0072E59E /* AppDelegate.swift */,
 				B7366BE11F91088A0072E59E /* ViewController.swift */,
 				B7841E941F9750060088A8BA /* Login */,
@@ -173,6 +188,33 @@
 				B7366C041F91088A0072E59E /* Info.plist */,
 			);
 			path = SwiftProjectUITests;
+			sourceTree = "<group>";
+		};
+		B751441A1F9C69F500610B75 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		B75D92A21F99EF1400CC6B2E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B793C7071F99FC4800CCB28A /* 001.mp4 */,
+				B75D92A31F99EF2400CC6B2E /* 鹬.mp4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B75D92A51F99EF3200CC6B2E /* GPUImage2Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B75D92A61F99EF6200CC6B2E /* MediaHandleController.swift */,
+				B75D92A81F99F18300CC6B2E /* MediaHandleController.xib */,
+				B7BF7E561F9EDCAB00543562 /* GPUCameraController.swift */,
+				B7BF7E571F9EDCAB00543562 /* GPUCameraController.xib */,
+			);
+			path = GPUImage2Demo;
 			sourceTree = "<group>";
 		};
 		B7841E941F9750060088A8BA /* Login */ = {
@@ -301,7 +343,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B75D92A41F99EF2400CC6B2E /* 鹬.mp4 in Resources */,
+				B75D92A91F99F18300CC6B2E /* MediaHandleController.xib in Resources */,
 				B7366BED1F91088A0072E59E /* LaunchScreen.storyboard in Resources */,
+				B7BF7E591F9EDCAB00543562 /* GPUCameraController.xib in Resources */,
+				B793C7081F99FC4800CCB28A /* 001.mp4 in Resources */,
 				B7366BEA1F91088A0072E59E /* Assets.xcassets in Resources */,
 				B7366BE51F91088A0072E59E /* Main.storyboard in Resources */,
 			);
@@ -349,11 +395,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftProject/Pods-SwiftProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EVGPUImage2/EVGPUImage2.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EVGPUImage2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 			);
@@ -485,7 +533,9 @@
 				B7841E9A1F9752340088A8BA /* LoginViewModel.swift in Sources */,
 				B7366BE81F91088A0072E59E /* SwiftProject.xcdatamodeld in Sources */,
 				B7841E981F9752280088A8BA /* LoginView.swift in Sources */,
+				B7BF7E581F9EDCAB00543562 /* GPUCameraController.swift in Sources */,
 				B7366BE01F91088A0072E59E /* AppDelegate.swift in Sources */,
+				B75D92A71F99EF6200CC6B2E /* MediaHandleController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

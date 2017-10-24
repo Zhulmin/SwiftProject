@@ -39,5 +39,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>需要使用📷</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>需要使用🎙</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>需要访问相册 🤤</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>需要访问相册 🤠</string>
 </dict>
 </plist>

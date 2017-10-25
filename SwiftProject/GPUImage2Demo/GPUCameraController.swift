@@ -86,7 +86,7 @@ class GPUCameraController: UIViewController {
                         alertController.addAction(defaultAction)
                         self.present(alertController, animated: true, completion: nil)
                     }else {
-                        print(error)
+                        print(error ?? "")
                     }
                 }
                 

@@ -10,19 +10,17 @@
 
 /**
     图片滤镜
-    视频水印
- 
- 
- 
- 
- 
+    视频水印 ✘
+    视频裁剪尺寸
+    视频裁剪长度 ✘
+
  */
 
 
 import UIKit
 import AVKit
 import EVGPUImage2
-
+import Photos
 
 class MediaHandleController: UIViewController {
 
@@ -32,8 +30,6 @@ class MediaHandleController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-     
         
         // Do any additional setup after loading the view.
     }
@@ -44,12 +40,7 @@ class MediaHandleController: UIViewController {
 
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
-
     @IBAction func startPlay(_ sender: Any) {
         
         let path = Bundle.main.path(forResource: "鹬.mp4", ofType: nil)!
@@ -64,8 +55,7 @@ class MediaHandleController: UIViewController {
         
         present(playerVc, animated: true, completion: nil)
         
-       
-        
+
     }
     
     

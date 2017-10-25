@@ -58,15 +58,15 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource {
             cell?.textLabel?.text = "RAC / MVVM架构 / 登录功能"
             
         case 1:
-            cell?.textLabel?.text = "GPUImage2 处理图片"
+            cell?.textLabel?.text = "GPUImage2 处理本地图片"
         case 2:
             cell?.textLabel?.text = "GPUImage2 视频添加水印 ✘"
         case 3:
-            cell?.textLabel?.text = "GPUImage2 裁剪视频 ✘"
+            cell?.textLabel?.text = "GPUImage2 - 本地媒体渲染 (裁剪)"
         case 4:
             cell?.textLabel?.text = "GPUImage2 拼接视频 ✘"
         case 5:
-            cell?.textLabel?.text = "GPUImage2 录制视频并保存到相册"
+            cell?.textLabel?.text = "GPUImage2 - 录制中的视频渲染 并存储 (添加滤镜)"
             
         case 7:
             cell?.textLabel?.text = "视频编码解码 ✘"
@@ -85,6 +85,9 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource {
             vc = LoginViewController()
         case 1:
             vc = MediaHandleController()
+        case 3:
+            vc = VideoCropController()
+            
         case 5:
             vc = GPUCameraController()
         default:

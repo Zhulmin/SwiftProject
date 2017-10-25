@@ -32,8 +32,8 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kuo-cI-taQ">
-                    <rect key="frame" x="159" y="220" width="56" height="34"/>
-                    <state key="normal" title="加水印">
+                    <rect key="frame" x="150" y="220" width="75" height="34"/>
+                    <state key="normal" title="加水印 ✘">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
@@ -41,14 +41,14 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YyT-3b-iYi">
-                    <rect key="frame" x="164.5" y="294" width="46" height="34"/>
-                    <state key="normal" title="裁剪?">
+                    <rect key="frame" x="169.5" y="294" width="37" height="34"/>
+                    <state key="normal" title="裁剪">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tC4-aI-ugM">
-                    <rect key="frame" x="169.5" y="358" width="37" height="34"/>
-                    <state key="normal" title="拼接">
+                    <rect key="frame" x="159.5" y="358" width="57" height="34"/>
+                    <state key="normal" title="拼接 ✘">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>

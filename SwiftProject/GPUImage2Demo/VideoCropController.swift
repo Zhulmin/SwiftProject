@@ -57,7 +57,7 @@ class VideoCropController: UIViewController {
             return
         }
         _input --> crop --> _output
-        
+//        _input.runBenchmark
         _input.addTarget(crop)
         crop.addTarget(_output)
         
